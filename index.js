@@ -20,6 +20,7 @@
  * on the Heroku platform.
  */
 
+console.log("im here")
 
 const TOKEN = process.env.TELEGRAM_TOKEN || 'YOUR_TELEGRAM_BOT_TOKEN';
 const TelegramBot = require('../..');
