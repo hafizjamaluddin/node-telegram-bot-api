@@ -3,9 +3,9 @@
  * on the Heroku platform.
  */
 
-
+require('dotenv/config');
 const TOKEN = process.env.TELEGRAM_TOKEN || 'YOUR_TELEGRAM_BOT_TOKEN';
-const TelegramBot = require('../..');
+const TelegramBot = require('node-telegram-bot-api');
 const options = {
   webHook: {
     // Port to which you should bind is assigned to $PORT variable
